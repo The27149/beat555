@@ -19,7 +19,7 @@ var view;
             var _this = _super.call(this) || this;
             _this.mouses = new Array();
             _this.mousesNumb = 9;
-            _this.time = 10;
+            _this.time = 90;
             _this.score = 0;
             _this.init();
             _this.start();

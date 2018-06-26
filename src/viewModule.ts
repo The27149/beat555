@@ -6,7 +6,7 @@ module view {
     export class mainView extends ui.mainUI{
                 private mouses:Array<Mouse> = new Array<Mouse>();
                 private mousesNumb:number = 9;
-                private time:number = 10;
+                private time:number = 90;
                 private score:number = 0;
                 private hammer: Hammer;
                 constructor(){ 
